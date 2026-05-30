@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>AnimeXHub – Discover Anime</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="header-left">
+      <button id="menu-btn" aria-label="Menu">☰</button>
+    </div>
+    <div class="header-center">
+      <h1>AnimeXHub</h1>
+    </div>
+    <div class="header-right">
+      <button id="search-btn" aria-label="Search">🔍</button>
+      <input type="text" id="search-input" class="search-input" placeholder="Search anime...">
+      <img id="logo" src="https://i.postimg.cc/h48fxGNP/AnimeVersego_Logo.jpg" alt="AnimeXHub Logo">
+    </div>
+  </header>
+
+  <!-- SIDE NAVIGATION -->
+  <nav id="side-navbar" aria-hidden="true">
+    <ul class="nav-top">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#slides">Featured</a></li>
+      <li><a href="#list">Anime List</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <hr>
+    <ul class="nav-bottom">
+      <li><a href="#settings">Settings</a></li>
+      <li><a href="#help">Help</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+    <!-- CAROUSEL SECTION -->
+    <section id="slides-section">
+      <h2>🔥 Featured Highlights</h2>
+      <div id="carousel">
+        <div id="carousel-track">
+          <!-- slides injected by JS -->
+        </div>
+        <button id="carousel-prev" aria-label="Previous">◀</button>
+        <button id="carousel-next" aria-label="Next">▶</button>
+        <div id="carousel-dots"></div>
+      </div>
+    </section>
+
+    <!-- ANIME LIST SECTION -->
+    <section id="anime-section">
+      <h2>📺 Anime Collection</h2>
+      <div id="anime-list">
+        <!-- anime cards injected by JS -->
+      </div>
+    </section>
+
+    <!-- ABOUT & DISCLAIMER -->
+    <section id="about" class="about-section">
+      <h2>About AnimeXHub</h2>
+      <p>
+        ⚠️ <strong>Disclaimer:</strong> All content displayed is collected from publicly available sources. 
+        We do not host or own any of the media. No copyright infringement intended. 
+        For takedown requests, please contact us.
+      </p>
+      <p>
+        🚀 AnimeXHub is available on:<br>
+        • GitHub Pages<br>
+        • Blogger Hosted Mirror
+      </p>
+      <p><strong>© 2026 AnimeXHub | All Rights Reserved</strong></p>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <p>Created with ❤️ by <strong>Master Shin</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
